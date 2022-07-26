@@ -32,8 +32,14 @@ body {
     cursor: grab;
     display: grid;
     place-items: center;
+    transition: opacity 500ms ease-in-out;
 }
 
 .dragging {
     opacity: 0.2;
+    border: 1px dashed rgb(249, 91, 6);
+}
+
+.outline {
+    border: 1px dashed rgb(28, 121, 241);
 }
